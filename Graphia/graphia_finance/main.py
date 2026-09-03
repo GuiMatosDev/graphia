@@ -4,7 +4,7 @@ from tkinter import ttk
 
 from importer import importar_csv_nubank
 
-caminho = "NU_398236264_01JUL2026_31JUL2026.csv"
+caminho = ""
 
 movimentacoes = importar_csv_nubank(caminho)
 
